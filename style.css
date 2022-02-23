@@ -1,24 +1,38 @@
 html{
     font-family: 'MuseoModerno', cursive;
     font-size: 10px;
-    background: #2d3740;
+    background-image: url("pexels-tim-gouw-60230.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 body{
-    padding: 1rem;
+    min-height: 100vh;
+    max-width: 50%;
+    padding: 2rem;
     background: #1c262f;
     color: rgb(230, 225, 225);
-    width: 90%;
-    margin: 0 auto;
-}
-.logo{
+    margin: 2rem auto;
     text-align: center;
+    opacity: 0.95;
 }
+
+h1{
+    font-size: 35px;
+    background-color: #141c22;
+}
+
 form{
+    color: rgb(230, 225, 225);
     text-align: center;
 }
+
 label{
     font-size: 1.8rem;
 }
+
 input[type="number"]{
     font-family: inherit;
     background: rgb(230, 225, 225);
@@ -30,7 +44,9 @@ input[type="number"]{
     font-size: 1.2rem;
     text-align: center;
 }
+
 button{
+    cursor: pointer;
     font-family: inherit;
     font-size: 1.4rem;
     font-weight: bolder;
@@ -41,28 +57,35 @@ button{
     background: #0ad9ff;
     margin: 0.5rem 0 1rem 0;
 }
+
 ul{
     padding: 0;
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
+
 li{
     border: 1px solid;
     padding: 1rem 1.5rem;
 }
+
 .entriesWrapper{
+    margin: auto auto;
     padding: 1rem 0;
     font-size: 1.6rem;
 }
+
 .entriesWrapper h3{
     margin: 0;
     text-align: center;
     font-weight: lighter;
 }
+
 .data{
     font-size: 1.4rem;
 }
+
 .data div{
     background: #141c22;
     display: flex;
@@ -71,41 +94,49 @@ li{
     margin: 0.5rem 0;
     padding: 0 1rem;
 }
+
 .progress{
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 50%;
 }
+
 .progress h3{
     font-size: 1rem;
     font-weight: lighter;
+    margin: 25%;
+    text-align: center;
 }
+
 .progressCircleWrapper{
     display: flex;
     justify-content: center;
+    border-radius: 50%;
 }
+
 #progressCircle{
     width: 250px;
     height: 250px;
+    margin-top: 2rem;
     border-radius: 50%;
     /* background: conic-gradient(#70db70 50%, #2d3740 50%); */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #progressCenter{
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background: #1c262f;
+    background: #141c22;
 }
+
 @media screen and (min-width: 800px){
     body{
         width: 60%;
     }
     input[type="number"]{
         width: 40%;
-    }
-    svg{
-        max-width: 50%;
     }
 }
