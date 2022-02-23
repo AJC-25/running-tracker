@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     max-width: 50%;
     padding: 2rem;
+    padding-bottom: 0;
     background: #1c262f;
     color: rgb(230, 225, 225);
     margin: 2rem auto;
@@ -130,6 +131,12 @@ li{
     height: 220px;
     border-radius: 50%;
     background: #141c22;
+}
+
+a{
+    color: whitesmoke;
+    font-size: small;
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 800px){
