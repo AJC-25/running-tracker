@@ -139,6 +139,15 @@ a{
     margin-bottom: 0;
 }
 
+#github{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
 @media screen and (min-width: 800px){
     body{
         width: 60%;
