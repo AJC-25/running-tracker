@@ -133,6 +133,10 @@ li{
     background: #141c22;
 }
 
+#reset{
+    margin-top: 15px;
+}
+
 a{
     color: whitesmoke;
     font-size: small;
